@@ -11,16 +11,11 @@ class ProjectContainer extends Component {
 
     render() {
         return (
-            <div className="cf">
-                <div className="fl w-third pa2">
+            <div className="flex flex-wrap">
                     <Project project={data.projects[0]} />
-                </div>
-                <div className="fl w-third pa2">
-                    <Project />
-                </div>
-                <div className="fl w-third pa2">
-                    <Project />
-                 </div>
+                    <Project project={data.projects[1]} />
+                    <Project project={data.projects[2]} />
+                    <Project project={data.projects[3]} />
             </div>
         );
     }
