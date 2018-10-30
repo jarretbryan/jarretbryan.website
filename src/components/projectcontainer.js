@@ -5,17 +5,15 @@ import data from '../data/projects.json'
 
 class ProjectContainer extends Component {
 
-    state = {
-        test: data
+
+    mapData = () => {
+        return data.projects.map(project => <Project project={project} />)
     }
 
     render() {
         return (
             <div className="flex flex-wrap">
-                    <Project project={data.projects[0]} />
-                    <Project project={data.projects[1]} />
-                    <Project project={data.projects[2]} />
-                    <Project project={data.projects[3]} />
+                    {this.mapData()}
             </div>
         );
     }

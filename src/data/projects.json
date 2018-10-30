@@ -3,7 +3,9 @@
         {
             "title": "RadioWired",
             "description": "RadioWired is a podcast discovery application. Not sure what to listen to next? Looking for something new? RadioWired will recommend new podcasts based on your content preferences. You can make playlists, favorite new gems, and listen to the latest (and only the latest) episodes! Stay up to date with what's coming in on the wire and find new content.",
-            "technologies": ["React", "Redux"]
+            "technologies": [
+                "React", "Redux", "Rails", "Postgres", "Semantic UI", "Redux-Thunk", "ListenNotes API"
+            ]
         },
         {
             "title": "The Driving Dead",
@@ -20,8 +22,8 @@
             ]
         },
         {
-            "title": "The Driving Dead",
-            "description": "Inspired by Crazy Taxi and Pac Man, The Driving Dead is a browser game in which the user, driving a taxi, has to rush to collect(run over) as many passengers (zombies) as possible. This is a single page application, entirely written with Javascript. Users and scores are saved to a Rails backend here which provides the API to manage user data and scores.",
+            "title": "Sartor & Patch",
+            "description": "A Fashion Diary & Portfolio site that provides links to outfit elements",
             "technologies": [
                 "Rails, Ruby"
             ]

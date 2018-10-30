@@ -15,8 +15,8 @@ class Project extends Component {
                     </p>
                     <br /><hr />
                     <div className='flex justify-around'>
-                        <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow code">Live</button>
-                        <button class="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue code">Source</button>
+                        <button className="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow code">Live</button>
+                        <button className="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue code">Source</button>
                     </div>
                 </div>
             </article>
