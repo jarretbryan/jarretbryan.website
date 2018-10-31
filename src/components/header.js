@@ -28,10 +28,11 @@ class Header extends Component {
 
   render() {
     return (
-      <article className="vh-50 dt w-100 bg-near-black">
+      <article className="vh-75 dt w-100 bg-near-black">
         <div className="dtc v-mid tc white ph3 ph4-l">
           <h1 className="code f2 f1-l fw2 mb0 lh-title "><span className = "gold">// 🐝 </span>Jarret Bryan is <br/> {this.funText()}.</h1> 
           <Social />
+          <p className="code">Lorem Ipsum Say More in a Bit</p>
         </div>
       </article>
     );

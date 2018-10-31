@@ -6,8 +6,8 @@ import data from '../data/projects.json'
 class ProjectContainer extends Component {
 
 
-    mapData = () => {
-        return data.projects.map(project => <Project project={project} />)
+    mapData = (index) => {
+        return data.projects.map(project => <Project project={project} key={index} />)
     }
 
     render() {
