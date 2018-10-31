@@ -7,18 +7,21 @@ class Project extends Component {
     render() {
         // debugger;
         return (
-            <article className="center mw5 mw6-ns hidden ba mv4">
-                <h1 className="f4 bg-near-black white mv0 pv2 ph3 code">{this.props.project.title}</h1>
-                <div className="pa3 bt">
-                    <p className="f6 f5-ns lh-copy measure mv0 sans-serif" >
-                       {this.props.project.description}
+            <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
+                <img src="http://placekitten.com/g/600/300" class="db w-100 br2 br--top" alt="Photo of a kitten looking menacing." />
+                    <div class="pa2 ph3-ns pb3-ns">
+                        <div class="dt w-100 mt1">
+                            <div class="dtc">
+                                <h1 class="f5 f4-ns mv0">{this.props.project.title}</h1>
+                            </div>
+                            <div class="dtc tr">
+                                <h2 class="f5 mv0">$1,000</h2>
+                            </div>
+                        </div>
+                        <p class="f6 lh-copy measure mt2 mid-gray">
+                            {this.props.project.description}
                     </p>
-                    <br /><hr />
-                    <div className='flex justify-around'>
-                        <button className="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-yellow code">Live</button>
-                        <button className="f6 link dim br-pill ba ph3 pv2 mb2 dib bg-blue code">Source</button>
                     </div>
-                </div>
             </article>
         );
     }

@@ -12,7 +12,7 @@ class ProjectContainer extends Component {
 
     render() {
         return (
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap ">
                     {this.mapData()}
             </div>
         );
