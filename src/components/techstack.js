@@ -4,7 +4,7 @@ const techstack = () => {
     return (
         <div className="vh-25 dt w-100 bg-gold sans-serif">
             <div className="dtc v-mid ph3 ph4-l">
-                <p className="f1-m v-mid measure-narrow lh-title mv0 center tc">     
+                <p className="v-mid measure-narrow lh-title mv0 center tc">     
                         These words apply to me: <br />
                     <span className="bg-black-90 lh-copy white pa1 tracked-tight code">
                         Ruby, Javascript (ES6), HTML5, CSS3, SQL | Sinatra, Rails, React, Redux, Choo | SQLite, PostgreSQL, ActiveRecord, Rspec, Capybara, Mocha, Jest | Git, Dat 

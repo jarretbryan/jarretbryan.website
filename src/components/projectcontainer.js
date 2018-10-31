@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Project from '../components/project'
 
 import data from '../data/projects.json'
@@ -12,8 +12,11 @@ class ProjectContainer extends Component {
 
     render() {
         return (
-            <div className="flex flex-wrap ">
-                    {this.mapData()}
+            <div className="tc">
+                <h4 className= "ma0 pa2 underline code">Selected Projects:</h4>
+                <div className="flex flex-wrap ">
+                        {this.mapData()}
+                </div>
             </div>
         );
     }

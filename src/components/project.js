@@ -7,20 +7,21 @@ class Project extends Component {
     render() {
         // debugger;
         return (
-            <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
-                <img src="http://placekitten.com/g/600/300" class="db w-100 br2 br--top" alt="Photo of a kitten looking menacing." />
-                    <div class="pa2 ph3-ns pb3-ns">
-                        <div class="dt w-100 mt1">
-                            <div class="dtc">
-                                <h1 class="f5 f4-ns mv0">{this.props.project.title}</h1>
-                            </div>
-                            <div class="dtc tr">
-                                <h2 class="f5 mv0">$1,000</h2>
+            <article className="mv0 w-100 h-100 w-50-m w-25-l mw5 center">
+                {/* <img src="http://placekitten.com/g/600/300" className="db w-100 br2 br--top" alt="Photo of a kitten looking menacing." /> */}
+                    <div className="pa2 ph3-ns pb3-ns">
+                        <div className="dt w-100 mt1">
+                            <div className="dtc">
+                                <h4 className="f5 f4-ns mv0 code">{this.props.project.title}</h4>
                             </div>
                         </div>
-                        <p class="f6 lh-copy measure mt2 mid-gray">
+                        <p className="f6 lh-copy measure mt2 mid-gray">
                             {this.props.project.description}
                     </p>
+                    <section className="">
+                        <a className="link hover-gold b no-underline black dib code" href={this.props.project.live}>live</a> <span>|</span>| 
+                        <a className="link b hover-blue no-underline black dib code" href={this.props.project.repo}>repo</a>
+                    </section>
                     </div>
             </article>
         );
