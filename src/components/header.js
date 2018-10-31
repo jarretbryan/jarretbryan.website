@@ -6,7 +6,7 @@ import Social from './social';
 class Header extends Component {
 
   state = {
-    adjectives: ['a full-stack web developer', 'a technologist', 'an afrofuturist', 'subscribed to too many podcasts']
+    adjectives: ['is a full-stack web developer', 'is a technologist', 'is an afrofuturist', 'listens to too many podcasts']
   }
 
   funText = () => {
@@ -30,10 +30,10 @@ class Header extends Component {
     return (
       <article className="vh-75 dt w-100 bg-near-black">
         <div className="dtc v-mid tc white ph3 ph4-l">
-          <h1 className="code f2 f1-l fw2 mb0 lh-title "><span className = "gold">// 🐝 </span>Jarret Bryan is <br/> {this.funText()}.</h1> 
+          <h1 className="code f2 f1-l fw2 mb0 lh-title "><span className = "gold">// 🐝 </span>Jarret Bryan<br/> {this.funText()}.</h1> 
           <Social />
           <p className="code">Hi, my name is <span className="gold">Jarret</span>. I'm a NYC based full-stack web developer and technologist. I graduated from Brown University in 2014 with a degree in Science & Technology Studies.</p> 
-          <p className="code"> I'm particularly interested in exploring the ways that technology informs and transforms our everyday. If you're interested in me or my work, you can download <span className="gold">my resume</span> or <a href="mailto:jarret.bryan@gmail.com" className="link dim gold">email me</a>.</p>
+          <p className="code"> I'm particularly interested in exploring the ways that technology informs and transforms our everyday. If you're interested in me or my work, you can download <a href="" className="link dim gold" download="J.Bryan Resume">my resume </a> or <a href="mailto:jarret.bryan@gmail.com" className="link dim gold">email me</a>.</p>
         </div>
       </article>
     );
