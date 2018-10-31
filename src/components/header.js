@@ -32,7 +32,8 @@ class Header extends Component {
         <div className="dtc v-mid tc white ph3 ph4-l">
           <h1 className="code f2 f1-l fw2 mb0 lh-title "><span className = "gold">// 🐝 </span>Jarret Bryan is <br/> {this.funText()}.</h1> 
           <Social />
-          <p className="code">Hi, my name is <span className="gold">jarret</span>. I'm a NYC based full-stack webdeveloper and technologist. I graduated from Brown University in 2014 with a degree in Science & Technology Studies.</p>
+          <p className="code">Hi, my name is <span className="gold">Jarret</span>. I'm a NYC based full-stack web developer and technologist. I graduated from Brown University in 2014 with a degree in Science & Technology Studies.</p> 
+          <p className="code"> I'm particularly interested in exploring the ways that technology informs and transforms our everyday. If you're interested in me or my work, you can download <span className="gold">my resume</span> or <a href="mailto:jarret.bryan@gmail.com" className="link dim gold">email me</a>.</p>
         </div>
       </article>
     );

@@ -2,31 +2,39 @@
     "projects": [
         {
             "title": "RadioWired",
-            "description": "RadioWired is a podcast discovery application. Not sure what to listen to next? Looking for something new? RadioWired will recommend new podcasts based on your content preferences. You can make playlists, favorite new gems, and listen to the latest (and only the latest) episodes! Stay up to date with what's coming in on the wire and find new content.",
+            "description": "RadioWired is a podcast sampler & discovery application. RadioWired will recommend new podcasts based on user preferences. Users can make playlists, favorite new gems, and listen to the latest episodes. Built with React & Redux, a Rails API backend and syled with Semantic UI. Powered by the ListenNotes API.",
             "technologies": [
-                "React", "Redux", "Rails", "Postgres", "Semantic UI", "Redux-Thunk", "ListenNotes API"
-            ]
+                "React", "Redux", "Rails", "Postgres", "Semantic UI", "Redux-Thunk", "ListenNotes API" 
+            ],
+            "live": "https://radiowired.netlify.com/",
+            "repo":"https://github.com/jarretbryan/radiowired"
         },
         {
             "title": "The Driving Dead",
-            "description": "Inspired by Crazy Taxi and Pac Man, The Driving Dead is a browser game in which the user, driving a taxi, has to rush to collect(run over) as many passengers (zombies) as possible. This is a single page application, entirely written with Javascript. Users and scores are saved to a Rails backend here which provides the API to manage user data and scores.",
+            "description": "Inspired by Crazy Taxi and Pac Man, The Driving Dead is a browser game in which the user, driving a taxi, has to rush to collect(run over) as many passengers (zombies) as possible. This is a single page application, entirely written with HTML, CSS, & Javascript. Users and scores are saved to a Rails backend  which provides the API to manage user data and scores.",
             "technologies":[
-                "Rails, Ruby"
-            ]
+                "HTML5, CSS3, Javascript, Bootstrap"
+            ],
+            "live": "https://the-driving-dead.surge.sh/",
+            "repo":"https://github.com/sreemudunuri/CrazyLyft"
         },
         {
             "title": "water-me",
             "description": "a virtual garden for you. \n water-me is a virtual garden built with the choo framework and styled in css with tachyons",
             "technologies": [
-                "Rails, Ruby"
-            ]
+                "Choo, Tachyons"
+            ],
+            "live": "https://water-me.glitch.me/",
+            "repo": "https://glitch.com/~water-me"
         },
         {
             "title": "Sartor & Patch",
             "description": "A Fashion Diary & Portfolio site that provides links to outfit elements",
             "technologies": [
-                "Rails, Ruby"
-            ]
+                "Rails, Ruby, React"
+            ],
+            "live": "",
+            "repo":"https://github.com/jarretbryan/sartor-frontend"
         }
     ]
 
