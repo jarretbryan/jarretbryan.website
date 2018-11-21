@@ -6,7 +6,7 @@ import styled from 'styled-components'
 class Header extends Component {
 
   state = {
-    adjectives: ['is a full-stack web developer', 'is a technologist', 'is an afrofuturist', 'is subscribed to too many podcasts']
+    adjectives: ['is a software engineer', 'is a full-stack web developer', 'is a creative technologist', 'is an afrofuturist', 'is subscribed to too many podcasts']
   }
 
   funText = () => {
@@ -33,7 +33,7 @@ class Header extends Component {
           <MainBox>
             <QuarterBox><GoldText>bee: // 🐝 </GoldText></QuarterBox>
             <NameBox>jarret bryan</NameBox>
-            <FullBox>{this.funText()}</FullBox>
+            <FullBox>{this.funText()}.</FullBox>
             <QuarterBox onMouseOver={() => console.log('hey')}>about me</QuarterBox>
             <QuarterBox>projects</QuarterBox>
             <QuarterBox>social</QuarterBox>
