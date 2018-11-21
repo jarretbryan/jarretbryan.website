@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Header/>
     {/* <Techstack /> */}
-    {/* <ProjectContainer /> */}
+    <ProjectContainer />
   </Layout>
 )
 
