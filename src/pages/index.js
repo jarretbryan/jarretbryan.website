@@ -9,8 +9,8 @@ import Header from '../components/header';
 const IndexPage = () => (
   <Layout>
     <Header/>
-    {/* <Techstack />
-    <ProjectContainer /> */}
+    {/* <Techstack /> */}
+    {/* <ProjectContainer /> */}
   </Layout>
 )
 

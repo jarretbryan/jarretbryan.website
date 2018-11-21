@@ -32,12 +32,12 @@ class Header extends Component {
         <CenterBox>
           <MainBox>
             <QuarterBox><GoldText>bee: // 🐝 </GoldText></QuarterBox>
-            <NameBox>Jarret Bryan</NameBox>
+            <NameBox>jarret bryan</NameBox>
             <FullBox>{this.funText()}</FullBox>
-            <QuarterBox>About Me</QuarterBox>
-            <QuarterBox>Projects</QuarterBox>
-            <QuarterBox>Social</QuarterBox>
-            <QuarterBox>Contact Me</QuarterBox>
+            <QuarterBox onMouseOver={() => console.log('hey')}>about me</QuarterBox>
+            <QuarterBox>projects</QuarterBox>
+            <QuarterBox>social</QuarterBox>
+            <QuarterBox>contact me</QuarterBox>
           </MainBox>
         </CenterBox>
       </Article>
@@ -58,7 +58,7 @@ const MainBox = styled.div.attrs({
 })``
 
 const QuarterBox= styled.div.attrs({
-  className: "flex pl3 outline w-25 fw1 hover-bg-gold"
+  className: "flex dtc pl3 outline w-25 fw1 hover-bg-gold"
 })``
 
 const NameBox = styled.div.attrs({
@@ -68,6 +68,10 @@ const NameBox = styled.div.attrs({
 const FullBox = styled.div.attrs({
   className: "flex w-100 pl3 mb4 mb0-l mb4 outline"
 })``
+
+// const Links = styled.div.attrs({
+//   className: "mv0 w-100 h-100 w-50-m w-25-l mw5 center"
+// })``
 
 const GoldText = styled.span.attrs({
   className: "gold"
