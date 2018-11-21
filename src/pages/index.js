@@ -4,11 +4,13 @@ import ProjectContainer from '../components/projectcontainer';
 
 
 import Layout from '../components/layout'
+import Header from '../components/header';
 
 const IndexPage = () => (
   <Layout>
-    <Techstack />
-    <ProjectContainer />
+    <Header/>
+    {/* <Techstack />
+    <ProjectContainer /> */}
   </Layout>
 )
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
 import Social from './social';
-// import Typed from 'typed.js';
+import styled from 'styled-components'
 
 class Header extends Component {
 
   state = {
-    adjectives: ['is a full-stack web developer', 'is a technologist', 'is an afrofuturist', 'listens to too many podcasts']
+    adjectives: ['is a full-stack web developer', 'is a technologist', 'is an afrofuturist', 'is subscribed to too many podcasts']
   }
 
   funText = () => {
@@ -28,16 +28,51 @@ class Header extends Component {
 
   render() {
     return (
-      <article className="vh-75 dt w-100 bg-near-black">
-        <div className="dtc v-mid tc white ph3 ph4-l">
-          <h1 className="code f2 f1-l fw2 mb0 lh-title "><span className = "gold">// 🐝 </span>Jarret Bryan<br/> {this.funText()}.</h1> 
-          <Social />
-          <p className="code">Hi, my name is <span className="gold">Jarret</span>. I'm a NYC based full-stack web developer and technologist. I graduated from Brown University in 2014 with a degree in Science & Technology Studies.</p> 
-          <p className="code"> I'm particularly interested in exploring the ways that technology informs and transforms our everyday. If you're interested in me or my work, you can download <a href="/J_Bryan_Resume.pdf" className="link dim gold">my resume </a> or <a href="mailto:jarret.bryan@gmail.com" className="link dim gold">email me</a>.</p>
-        </div>
-      </article>
+      <Article>
+        <CenterBox>
+          <MainBox>
+            <QuarterBox><GoldText>bee: // 🐝 </GoldText></QuarterBox>
+            <NameBox>Jarret Bryan</NameBox>
+            <FullBox>{this.funText()}</FullBox>
+            <QuarterBox>About Me</QuarterBox>
+            <QuarterBox>Projects</QuarterBox>
+            <QuarterBox>Social</QuarterBox>
+            <QuarterBox>Contact Me</QuarterBox>
+          </MainBox>
+        </CenterBox>
+      </Article>
     );
   }
 }
+
+const Article = styled.div.attrs({
+  className: "vh-75 dt w-100 bg-black"
+})``
+
+const CenterBox = styled.div.attrs({
+  className: "dtc v-mid tc ph3 ph4-l"
+})``
+
+const MainBox = styled.div.attrs({
+  className: "container measure center f3 lh-copy code flex flex-wrap bg-white"
+})``
+
+const QuarterBox= styled.div.attrs({
+  className: "flex pl3 outline w-25 fw1 hover-bg-gold"
+})``
+
+const NameBox = styled.div.attrs({
+  className: "flex pl3 outline w-75 fw9 b"
+})``
+
+const FullBox = styled.div.attrs({
+  className: "flex w-100 pl3 mb4 mb0-l mb4 outline"
+})``
+
+const GoldText = styled.span.attrs({
+  className: "gold"
+})``
+
+
 
 export default Header;
