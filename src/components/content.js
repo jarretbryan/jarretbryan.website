@@ -15,8 +15,8 @@ const handleConditionals = (props) => {
     } else if (displaying === 'contact') {
         return (
             <TextBox>
-                <p className="code">If you're interested in me or my work, you can find me on <a href="https://www.linkedin.com/in/jarretbryan/" className="link dim gold">linkedin</a>, download <a href="/J_Bryan_Resume.pdf" className="link dim gold">my resume </a> or <a href="mailto:jarret.bryan@pm.me" className="link dim gold">email me</a>.</p>
-                <p className="code ma0"> I <a href="https://twitter.com/jaybeekeeper" className="link dim gold">tweet</a> fairly often. I blog at <a href="https://dev.to/jaybeekeeper" className="link dim gold">dev.to</a>. My code can be seen on <a href="https://github.com/jarretbryan" className="link dim gold">github</a> or <a href="https://glitch.com/@jarretbryan" className="link dim gold">glitch</a>. </p>
+                <p className="code">If you're interested in me or my work, you can find me on <Link href="https://www.linkedin.com/in/jarretbryan/">linkedin</Link>, download <Link href="/J_Bryan_Resume.pdf">my resume </Link> or <Link href="mailto:jarret.bryan@pm.me" className="link dim gold">email me</Link>.</p>
+                <p className="code ma0"> I <Link href="https://twitter.com/jaybeekeeper">tweet</Link> fairly often. I blog at <Link href="https://dev.to/jaybeekeeper">dev.to</Link>. My code can be seen on <Link href="https://github.com/jarretbryan">github</Link> or <Link href="https://glitch.com/@jarretbryan">glitch</Link>. </p>
             </TextBox>
         )
     } else if (displaying === 'projects') {
@@ -47,6 +47,12 @@ const Main = styled.div.attrs({
 
 const TextBox = styled.div.attrs({
     className: "dtc v-mid ph3 ph4-l"
+})``
+
+const Link = styled.a.attrs({
+    className: "link dim gold",
+    rel:" noreferrer noopener",
+    target:"_blank"
 })``
 
 

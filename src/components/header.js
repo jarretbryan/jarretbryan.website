@@ -13,7 +13,7 @@ class Header extends Component {
     return (
       <Typed
         loop={true}
-        typeSpeed={90}
+        typeSpeed={100}
         backSpeed={30}
         strings={this.state.adjectives}
         smartBackspace

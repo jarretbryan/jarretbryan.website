@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 import Content from '../components/content';
-import ProjectContainer from '../components/projectcontainer';
-import Social from '../components/social'
-
-
 import Layout from '../components/layout'
 import Header from '../components/header';
 
