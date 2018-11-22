@@ -13,7 +13,7 @@ class Project extends Component {
                                 <h4 className="f5 f4-ns mv0 code">{this.props.project.title}</h4>
                             </div>
                         </div>
-                        <p className="f6 lh-copy measure mt2 mid-gray sans-serif">
+                    <p className="f6 lh-copy measure-narrow">
                             {this.props.project.description}
                         </p>
                     <section className="">

@@ -34,9 +34,9 @@ class Header extends Component {
             <IconBox><GoldText>// 🐝 </GoldText></IconBox>
             <NameBox>jarret bryan</NameBox>
             <FullBox>{this.funText()}</FullBox>
-            <QuarterBox onMouseOver={() => console.log('hey')}>about me</QuarterBox>
-            <QuarterBox>projects</QuarterBox>
-            <QuarterBox>social</QuarterBox>
+            <QuarterBox onMouseOver={() => this.props.handleHover('about')}>about me</QuarterBox>
+            <QuarterBox onMouseOver={() => this.props.handleHover('projects')}>projects</QuarterBox>
+            <QuarterBox onMouseOver={() => this.props.handleHover('social')}>social</QuarterBox>
             <QuarterBox>contact me</QuarterBox>
           </MainBox>
         </CenterBox>
@@ -46,7 +46,7 @@ class Header extends Component {
 }
 
 const Article = styled.div.attrs({
-  className: "vh-75 dt w-100 bg-black"
+  className: "vh-50 dt w-100 bg-black"
 })``
 
 const CenterBox = styled.div.attrs({
@@ -58,7 +58,7 @@ const MainBox = styled.div.attrs({
 })``
 
 const QuarterBox= styled.div.attrs({
-  className: "flex dtc pl3 ba fw1 hover-bg-gold center mv0  w-100 w-25-m w-25-l"
+  className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-25-m w-25-l"
 })``
 
 const IconBox = styled.div.attrs({
