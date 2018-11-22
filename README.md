@@ -1,23 +1,15 @@
-# gatsby-starter-tachyons
-Updated to Gatsby 2.0.
 
-A simple integration using [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default) and [Tachyons](https://github.com/tachyons-css/tachyons/) for CSS
+<p align="center">
+    // <span>🐝</span>
+</p>
+<h1 align="center">
+  Jarret Bryan
+</h1>
 
-Make sure you have the Gatsby CLI installed. You can do that by running
-`npm install --global gatsby-cli`
+My personal site.
 
-To install a new site with the Gatsby-Starter-Tachyons simply run:
+## 💻 Technologies
 
-`gatsby new [SITE_DIRECTORY] https://github.com/pixelsign/gatsby-starter-tachyons`
+![Dat](https://dat-badge.glitch.me/b1f0ef70b83dad3102654ff65e0061c956e5340a60c8e72b7868d3046a0b7a22//badge.svg)
 
-This downloads the files and initializes the site by running `npm install`
-
-Then you can go to the newly created folder and run
-`gatsby develop`
-Your newly built site is now running on your localhost, and you can start building it. 
-
-Make sure you read the documentation on both Gatsby and Tachyons. And have fun!
-
-
-<!-- Markdown snippet -->
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/pixelsign/gatsby-starter-tachyons)
+This site is built with Gatsby and styled with Tachyons. It is being shared p2p with the Dat Protocol, and mirrored to http using Hashbase. The typing animation comes from the Typed.js library.

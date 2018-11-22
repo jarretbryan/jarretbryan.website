@@ -29,7 +29,7 @@ const handleConditionals = (props) => {
     } else if (displaying === 'bee'){
         return(
             <TextBox>
-                <a href="dat://09888386585c9ece5da28599768166df47e135dad69aa475366a68c4d08ade36/"><img className = "center" src="https://dat-badge.glitch.me/09888386585c9ece5da28599768166df47e135dad69aa475366a68c4d08ade36//badge.svg" alt="Dat"></img></a>
+                <a href="dat://b1f0ef70b83dad3102654ff65e0061c956e5340a60c8e72b7868d3046a0b7a22/"><img className="center" src="https://dat-badge.glitch.me/b1f0ef70b83dad3102654ff65e0061c956e5340a60c8e72b7868d3046a0b7a22//badge.svg" alt="Dat"></img></a>
                 <p className="ma1"> <span className="gold" role="img" aria-label="bees"> 🐝 🐝 🐝 🐝 🐝 🐝 🐝 🐝 🐝 🐝 🐝 </span> </p>
                 <small>This site was built using <Link href="https://gatsbyjs.org">Gatsby</Link> & <Link href="http://tachyons.io/">Tachyons</Link>. It is hosted p2p with <Link href="https://datproject.org/">Dat</Link> and <Link href="https://hashbase.io/">#_hashbase</Link>.</small>
             </TextBox>
