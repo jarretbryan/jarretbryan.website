@@ -31,7 +31,7 @@ class Header extends Component {
       <Article>
         <CenterBox>
           <MainBox>
-            <IconBox><GoldText>// 🐝 </GoldText></IconBox>
+            <IconBox onMouseOver={() => this.props.handleHover('bee')}><GoldText>// 🐝 </GoldText></IconBox>
             <NameBox>jarret bryan</NameBox>
             <FullBox>{this.funText()}</FullBox>
             <Tribox onMouseOver={() => this.props.handleHover('about')}>about me</Tribox>
@@ -63,12 +63,17 @@ const TriboxFill = styled.div.attrs({
   className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-34-m w-34-l"
 })``
 
+// not in use 
+// const Quarterbox = styled.div.attrs({
+//   className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-25-m w-25-l"
+// })``
+
 const IconBox = styled.div.attrs({
-  className: "flex pl3 ba w-20 fw9 b center"
+  className: "flex pl3 ba w-20 fw9 hover-bg-green b center"
 })``
 
 const NameBox = styled.div.attrs({
-  className: "flex pl3 ba w-80 fw9 b center"
+  className: "flex pl3 ba w-80 fw9 b center hover-bg-gold"
 })``
 
 const FullBox = styled.div.attrs({
