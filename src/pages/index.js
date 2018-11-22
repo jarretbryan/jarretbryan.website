@@ -14,23 +14,6 @@ class IndexPage extends Component {
     displaying: 'about'
   }
 
-  renderComp = () => {
-    
-    if (this.state.displaying === 'about' || this.state.displaying === 'contact' ) {
-      return(<Content textContent={this.state.displaying}/>)
-    } else {
-      return(<ProjectContainer />)
-    }
-    // switch (this.state.displaying){
-    //   case 'about':
-    //     return (<Content/>);
-    //   case 'social':
-    //     return (<Social/>);
-    //   case 'projects':
-    //     return (<ProjectContainer />);
-    // }
-  }
-
   setComp = (str) => {
     this.setState({
       displaying: str
@@ -41,8 +24,7 @@ class IndexPage extends Component {
     return (
       <Layout>
         <Header handleHover={this.setComp}/>
-        {this.renderComp()}
-        {/* <ProjectContainer /> */}
+        <Content textContent={this.state.displaying} />
       </Layout>
     );
   }

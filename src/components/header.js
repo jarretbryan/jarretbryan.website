@@ -34,10 +34,9 @@ class Header extends Component {
             <IconBox><GoldText>// 🐝 </GoldText></IconBox>
             <NameBox>jarret bryan</NameBox>
             <FullBox>{this.funText()}</FullBox>
-            <QuarterBox onMouseOver={() => this.props.handleHover('about')}>about me</QuarterBox>
-            <QuarterBox onMouseOver={() => this.props.handleHover('projects')}>projects</QuarterBox>
-            <QuarterBox onMouseOver={() => this.props.handleHover('social')}>social</QuarterBox>
-            <QuarterBox onMouseOver={() => this.props.handleHover('contact')}>contact me</QuarterBox>
+            <Tribox onMouseOver={() => this.props.handleHover('about')}>about me</Tribox>
+            <Tribox onMouseOver={() => this.props.handleHover('projects')}>projects</Tribox>
+            <TriboxFill onMouseOver={() => this.props.handleHover('contact')}>contact me</TriboxFill>
           </MainBox>
         </CenterBox>
       </Article>
@@ -57,8 +56,11 @@ const MainBox = styled.div.attrs({
   className: "container measure center f3 lh-copy code flex flex-wrap bg-white"
 })``
 
-const QuarterBox= styled.div.attrs({
-  className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-25-m w-25-l"
+const Tribox= styled.div.attrs({
+  className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-33-m w-33-l"
+})``
+const TriboxFill = styled.div.attrs({
+  className: "flex dtc pl3 ba fw1 hover-bg-gold mv0 w-100 w-34-m w-34-l"
 })``
 
 const IconBox = styled.div.attrs({

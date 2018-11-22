@@ -15,8 +15,8 @@ const handleConditionals = (props) => {
     } else if (displaying === 'contact') {
         return (
             <TextBox>
-                <p className="code">If you're interested in me or my work, you can download <a href="/J_Bryan_Resume.pdf" className="link dim gold">my resume </a> or <a href="mailto:jarret.bryan@pm.me" className="link dim gold">email me</a>.</p>
-                <p className="code ma0"> I <a href="" className="link dim gold">tweet</a> fairly often. I blog at <a href="" className="link dim gold">dev.to</a>, and my code can be seen on <a href="" className="link dim gold">github</a> or <a href="" className="link dim gold">glitch</a>. </p>
+                <p className="code">If you're interested in me or my work, you can find me on <a href="https://www.linkedin.com/in/jarretbryan/" className="link dim gold">linkedin</a>, download <a href="/J_Bryan_Resume.pdf" className="link dim gold">my resume </a> or <a href="mailto:jarret.bryan@pm.me" className="link dim gold">email me</a>.</p>
+                <p className="code ma0"> I <a href="https://twitter.com/jaybeekeeper" className="link dim gold">tweet</a> fairly often. I blog at <a href="https://dev.to/jaybeekeeper" className="link dim gold">dev.to</a>. My code can be seen on <a href="https://github.com/jarretbryan" className="link dim gold">github</a> or <a href="https://glitch.com/@jarretbryan" className="link dim gold">glitch</a>. </p>
             </TextBox>
         )
     } else if (displaying === 'projects') {
@@ -29,11 +29,7 @@ const Content = (props) => {
     return (
         <Main>
             {handleConditionals(props)}
-            {/* <div className="dtc v-mid ph3 ph4-l">
-
-                <p className="code">Hi, my name is <span className="gold">Jarret</span>. I'm a NYC based full-stack web developer and technologist. I graduated from Brown University in 2014 with a degree in Science & Technology Studies.</p>
-                <p className="code ma0"> I'm particularly interested in exploring the ways that technology informs and transforms our everyday. If you're interested in me or my work, you can download <a href="/J_Bryan_Resume.pdf" className="link dim gold">my resume </a> or <a href="mailto:jarret.bryan@gmail.com" className="link dim gold">email me</a>.</p> */}
-            
+            {/* <div className="dtc v-mid ph3 ph4-l">        
                 {/* <p className="v-mid measure-narrow lh-title mv0 center tc code">     
                         These words apply to me: <br />
                     <span className="bg-black-90 lh-copy white pa1 tracked-tight">
