@@ -20,10 +20,10 @@ const handleConditionals = (props) => {
     } else if (displaying === 'projects') {
         return(
             <TextBox>
-                <p className="ma1"><Link href="https://radiowired.netlify.com/">RadioWired:</Link> Podcast Sampler and Discovery app (React/Redux/Rails/Semantic UI)  (<Link href="https://github.com/jarretbryan/radiowired">Code</Link>)</p>
-                <p className="ma1"><Link href="https://water-me.glitch.me/">Water Me:</Link> Virtual Emoji Garden (Choo/Tachyons)(<Link href="https://glitch.com/~water-me">Code</Link>)</p>
+                <p className="ma1"><Link href="https://radiowired.netlify.com/">RadioWired:</Link> Podcast Sampler and Discovery app (React/Redux/Rails/Semantic UI) (<Link href="https://github.com/jarretbryan/radiowired">Code</Link>)</p>
+                <p className="ma1"><Link href="https://water-me.glitch.me/">Water Me:</Link> Virtual Emoji Garden (Choo/Tachyons) (<Link href="https://glitch.com/~water-me">Code</Link>)</p>
                 <p className="ma1"><Link href="https://the-driving-dead.surge.sh/">The Driving Dead:</Link> Pac-Man/Crazy Taxi Inspired Browser Game (HTML/CSS/JS) (<Link href="https://github.com/sreemudunuri/CrazyLyft">Code</Link>)</p>
-                <p><Link href="https://www.youtube.com/watch?v=NuUiNs8U7ks">DirectorMe:</Link> Employee Directory with real-time search (React/Rails) (<Link href="https://github.com/jarretbryan/directory-me-client">Code</Link>)</p>
+                <p className="ma0"><Link href="https://www.youtube.com/watch?v=NuUiNs8U7ks">DirectorMe:</Link> Employee Directory with real-time search (React/Rails) (<Link href="https://github.com/jarretbryan/directory-me-client">Code</Link>)</p>
             </TextBox>
         )
     } else if (displaying === 'bee'){
