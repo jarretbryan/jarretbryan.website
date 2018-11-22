@@ -14,7 +14,7 @@ class ProjectContainer extends Component {
         return (
             <div className="tc vh-50">
                 <h4 className= "ma0 pa2 underline code">Selected Projects:</h4>
-                <div className="flex flex-wrap ">
+                <div className="flex flex-wrap white ">
                         {this.mapData()}
                 </div>
             </div>

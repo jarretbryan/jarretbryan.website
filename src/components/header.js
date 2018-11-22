@@ -6,7 +6,7 @@ import styled from 'styled-components'
 class Header extends Component {
 
   state = {
-    adjectives: ['is a software engineer.', 'is a full-stack web developer.', 'is a creative technologist.', 'is an afrofuturist.', 'is subscribed to too many podcasts.']
+    adjectives: ['is a full-stack web developer.', 'is a technologist.', 'is an afrofuturist.', 'is subscribed to too many podcasts.']
   }
 
   funText = () => {
@@ -37,7 +37,7 @@ class Header extends Component {
             <QuarterBox onMouseOver={() => this.props.handleHover('about')}>about me</QuarterBox>
             <QuarterBox onMouseOver={() => this.props.handleHover('projects')}>projects</QuarterBox>
             <QuarterBox onMouseOver={() => this.props.handleHover('social')}>social</QuarterBox>
-            <QuarterBox>contact me</QuarterBox>
+            <QuarterBox onMouseOver={() => this.props.handleHover('contact')}>contact me</QuarterBox>
           </MainBox>
         </CenterBox>
       </Article>
@@ -72,10 +72,6 @@ const NameBox = styled.div.attrs({
 const FullBox = styled.div.attrs({
   className: "flex w-100 pl3 ba"
 })``
-
-// const Links = styled.div.attrs({
-//   className: "mv0 w-100 h-100 w-50-m w-25-l mw5 center"
-// })``
 
 const GoldText = styled.span.attrs({
   className: "gold"

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Techstack from '../components/techstack';
+import Content from '../components/content';
 import ProjectContainer from '../components/projectcontainer';
 import Social from '../components/social'
 
@@ -15,14 +15,20 @@ class IndexPage extends Component {
   }
 
   renderComp = () => {
-    switch (this.state.displaying){
-      case 'about':
-        return (<Techstack/>);
-      case 'social':
-        return (<Social/>);
-      case 'projects':
-        return (<ProjectContainer />);
+    
+    if (this.state.displaying === 'about' || this.state.displaying === 'contact' ) {
+      return(<Content textContent={this.state.displaying}/>)
+    } else {
+      return(<ProjectContainer />)
     }
+    // switch (this.state.displaying){
+    //   case 'about':
+    //     return (<Content/>);
+    //   case 'social':
+    //     return (<Social/>);
+    //   case 'projects':
+    //     return (<ProjectContainer />);
+    // }
   }
 
   setComp = (str) => {
@@ -33,7 +39,7 @@ class IndexPage extends Component {
 
   render() {
     return (
-      <Layout className="bg-black">
+      <Layout>
         <Header handleHover={this.setComp}/>
         {this.renderComp()}
         {/* <ProjectContainer /> */}

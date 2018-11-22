@@ -17,8 +17,8 @@ class Project extends Component {
                             {this.props.project.description}
                         </p>
                     <section className="">
-                        <a className="link hover-gold b no-underline black dib code" href={this.props.project.live}>live</a> <span>|</span>| 
-                        <a className="link b hover-blue no-underline black dib code" href={this.props.project.repo}>repo</a>
+                        <a className="link hover-gold b no-underline white dib code" href={this.props.project.live}>live</a> <span>|</span>| 
+                        <a className="link b hover-blue no-underline white dib code" href={this.props.project.repo}>repo</a>
                     </section>
                     </div>
             </article>
