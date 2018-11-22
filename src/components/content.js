@@ -42,14 +42,6 @@ const Content = (props) => {
     return (
         <Main>
             {handleConditionals(props)}
-            {/* <div className="dtc v-mid ph3 ph4-l">        
-                {/* <p className="v-mid measure-narrow lh-title mv0 center tc code">     
-                        These words apply to me: <br />
-                    <span className="bg-black-90 lh-copy white pa1 tracked-tight">
-                        Ruby, Javascript (ES6), HTML5, CSS3, SQL | Sinatra, Rails, React, Redux, Choo | SQLite, PostgreSQL, ActiveRecord, Rspec, Capybara, Mocha, Jest | Git, Dat 
-                    </span>
-                </p> */}
-            {/* </div> */}
         </Main>
     )
 }

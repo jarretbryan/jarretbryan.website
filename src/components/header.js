@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Typed from 'react-typed';
-import Social from './social';
 import styled from 'styled-components'
 
 class Header extends Component {
@@ -32,7 +31,7 @@ class Header extends Component {
         <CenterBox>
           <MainBox>
             <IconBox onMouseOver={() => this.props.handleHover('bee')}><GoldText>// 🐝 </GoldText></IconBox>
-            <NameBox>jarret bryan</NameBox>
+            <NameBox><p className="ma0">jarret bryan</p></NameBox>
             <FullBox>{this.funText()}</FullBox>
             <Tribox onMouseOver={() => this.props.handleHover('about')}>about me</Tribox>
             <Tribox onMouseOver={() => this.props.handleHover('projects')}>projects</Tribox>
@@ -81,7 +80,9 @@ const FullBox = styled.div.attrs({
 })``
 
 const GoldText = styled.span.attrs({
-  className: "gold"
+  className: "gold",
+  role: "img",
+  "aria-label": "bee emoji"
 })``
 
 
