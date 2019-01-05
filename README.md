@@ -12,4 +12,4 @@ My personal site.
 
 ![Dat](https://dat-badge.glitch.me/b1f0ef70b83dad3102654ff65e0061c956e5340a60c8e72b7868d3046a0b7a22//badge.svg)
 
-This site is built with Gatsby and styled with Tachyons. It is being shared p2p with the Dat Protocol, and mirrored to http using Hashbase. The typing animation comes from the Typed.js library.
+This site is built with Gatsby and styled with Tachyons. It is being shared p2p with the Dat Protocol, and mirrored to http using Hashbase. The typing animation comes from the Typed.js library. It's sometimes a sandbox for ideas I want to try out, so the code isn't always the prettiest, but I'm having fun with it.
