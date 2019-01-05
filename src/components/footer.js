@@ -8,7 +8,8 @@ class Footer extends Component {
     return (
         <footer className="pv3 ph3 ph5-m ph6-l bg-black white code vh-25">
         <Social/>
-            <small className="f6 db tc"> 2018 - {(new Date().getFullYear())} &copy; Jarret Bryan <br /> <span className="gold">// 🐝 </span> Code + Design by Jarret Bryan</small>
+            <small className="f6 db tc"> 2018 - {(new Date().getFullYear())} &copy; Jarret Bryan</small> 
+            <small className="f6 db tc"><span className="gold">// 🐝 </span> Code + Design by Jarret Bryan</small>
         </footer>
     );
   }
